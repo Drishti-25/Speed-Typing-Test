@@ -1,0 +1,15 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore VS Code and virtual environments
+.vscode/
+venv/
+
+# Ignore sensitive files
+key.key
+
+# Ignore other unrelated scripts
+rockPaperScissors.py
+snakeWaterGun.py
+passwaordManager.py
