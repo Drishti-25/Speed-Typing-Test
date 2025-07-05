@@ -1,20 +1,3 @@
-# import curses
-# from curses import wrapper
-# #helps to make terminal to a new screen and restore it
-
-# def main(stdscr):
-#     curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_BLACK)
-#     curses.init_pair(2, curses.COLOR_CYAN, curses.COLOR_BLACK)
-#     curses.init_pair(3, curses.COLOR_RED, curses.COLOR_BLACK)
-    
-#     stdscr.clear()
-#     #1 means: 1 line down || 0 means: from 0th index
-#     stdscr.addstr(1, 5, "Hare Krishna!", curses.color_pair(1))
-#     stdscr.addstr(1, 0, "Hare Krishna!", curses.color_pair(2))
-#     stdscr.refresh()
-#     key = stdscr.getkey()
-#     print(key)
-# wrapper(main) 
 
 import curses
 from curses import wrapper
